@@ -18,7 +18,7 @@ app.UseHttpsRedirection();
 
 var summaries = new[]
 {
-    "Freezing", "Bracing", "Chill man dev is good"
+    "Freezing", "Bracing", "Chill man dev is good", "This is good"
 };
 
 app.MapGet("/weatherforecast", () =>
